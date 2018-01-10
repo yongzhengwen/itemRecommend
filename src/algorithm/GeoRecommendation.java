@@ -1,3 +1,5 @@
+// Zhengwen Yong, CMU
+
 
 package algorithm;
 
@@ -32,7 +34,7 @@ public class GeoRecommendation implements Recommendation {
       recommendedItems.addAll(items);
     }
 
-    // Student question: why we use list now instead of set?
+    // why we use list now instead of set?
     // Answer: because we will have ranking now.
     List<Item> filteredItems = new ArrayList<>();  // step 4
     for (Item item : recommendedItems) {
